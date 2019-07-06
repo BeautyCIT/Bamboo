@@ -14,5 +14,5 @@ client.on('message', msg => {
 client.login('NTk3MTQ2NzI4NTc1MDA4NzY4.XSD3Dg.pgjkCjIZNWQlVpwp5vzygzl0dQs')
 var http = require("http");
 setInterval(function() {
-    http.get("http://<your app name>.herokuapp.com");
+    http.get("https://dashboard.heroku.com/apps/bamboo69");
 }, 300000); // every 5 minutes (300000)
