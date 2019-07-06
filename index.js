@@ -11,7 +11,7 @@ client.on('message', msg => {
 }
   if (message.content.match('sock')) 
 {
-   bot.sendMessage(message, "SOCK DETECTED!");
+   msg.reply('Pong');
 }
 })
 
