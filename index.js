@@ -9,6 +9,10 @@ client.on('message', msg => {
   if (msg.content.includes('ping')) {
     msg.reply('Pong');
 }
+  if (message.content.match(/sock/i)) 
+{
+   bot.sendMessage(message, "SOCK DETECTED!");
+}
 })
 
 client.login('NTk3MTQ2NzI4NTc1MDA4NzY4.XSD3Dg.pgjkCjIZNWQlVpwp5vzygzl0dQs')
