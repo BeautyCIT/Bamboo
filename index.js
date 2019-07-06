@@ -6,9 +6,9 @@ client.on('ready', () => {
 })
 
 client.on('message', msg => {
-  if (message.content.includes === 'ping') {
-    message.reply('Pong!')
-  }
+  if(message.content.includes('ping')) {
+    message.reply('Pong');
+}
 })
 
 client.login('NTk3MTQ2NzI4NTc1MDA4NzY4.XSD3Dg.pgjkCjIZNWQlVpwp5vzygzl0dQs')
