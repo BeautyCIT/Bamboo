@@ -4,9 +4,9 @@ const client = new Discord.Client()
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`)
 })
-var wildcard = require('wildcard');
+
 client.on('message', msg => {
-  if (wildcard(msg.content === 'ping')) {
+  if (msg.content === 'ping') {
     msg.reply('Pong!')
   }
 })
